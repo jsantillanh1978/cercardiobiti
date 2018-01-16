@@ -1,4 +1,4 @@
-// Generated on 2017-12-19 using generator-jhipster 4.10.2
+// Generated on 2017-11-27 using generator-jhipster 4.10.2
 'use strict';
 
 var gulp = require('gulp'),
@@ -103,7 +103,7 @@ gulp.task('html', function () {
     return gulp.src(config.app + 'app/**/*.html')
         .pipe(htmlmin({collapseWhitespace: true}))
         .pipe(templateCache({
-            module: 'cercardioApp',
+            module: 'cercardiobitiApp',
             root: 'app/',
             moduleSystem: 'IIFE'
         }))
@@ -112,7 +112,7 @@ gulp.task('html', function () {
 
 gulp.task('ngconstant:dev', function () {
     return ngConstant({
-        name: 'cercardioApp',
+        name: 'cercardiobitiApp',
         constants: {
             VERSION: util.parseVersion(),
             DEBUG_INFO_ENABLED: true,
@@ -127,7 +127,7 @@ gulp.task('ngconstant:dev', function () {
 
 gulp.task('ngconstant:prod', function () {
     return ngConstant({
-        name: 'cercardioApp',
+        name: 'cercardiobitiApp',
         constants: {
             VERSION: util.parseVersion(),
             DEBUG_INFO_ENABLED: false,

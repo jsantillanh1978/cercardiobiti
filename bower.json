@@ -1,6 +1,6 @@
 {
   "version": "0.0.0",
-  "name": "cercardio",
+  "name": "cercardiobiti",
   "appPath": "src/main/webapp/",
   "testPath": "src/test/javascript/spec",
   "dependencies": {
@@ -28,9 +28,8 @@
     "modernizr": "3.3.1",
     "ng-file-upload": "12.0.4",
     "ngInfiniteScroll": "1.3.0",
-    "sockjs-client": "1.1.1",
-    "stomp-websocket": "2.3.4",
-    "swagger-ui": "2.1.5"
+    "swagger-ui": "2.1.5",
+    "admin-lte": "2.4.2"
   },
   "devDependencies": {
     "angular-mocks": "1.5.8"
